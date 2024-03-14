@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body, html{
+    background-image: linear-gradient(to left, #05583d, rgb(12, 102, 52), #05583d);
+    width: 100vw;
+    height: 100vh;
+}
+#mainlog{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#loginbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    background-color: rgb(233, 233, 231);
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.39);
+}
+
+#imagemlog{
+    display: block;
+    background: url(../imagens/pexels-dom-j-227396.jpg) no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 300px;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+#loginbox > h1{
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+#formlogin{
+    padding: 10px;
+}
+
+.infobtn{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #05583d;
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+
+form > a > input[type=submit]{
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+    font-size: 1em;
+    width: 40%;
+    height: 40px;
+    background-color: #4dc995;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #4dc995;
+    transition-duration: 0.5s;
+}
+
+form > a > input[type=submit]:hover{
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+    font-size: 1em;
+    width: 40%;
+    height: 40px;
+    background-color: #0f291e;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #0f291e;
+    transition-duration: 0.5s;
+}
+
+form > input[type=reset]{
+    display: inline-block;
+    margin: 0px 10px 0px 15px;
+    font-size: 1em;
+    width: 40%;
+    height: 40px;
+    background-color: #4dc995;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #4dc995;
+    transition-duration: 0.5s;
+}
+
+form > input[type=reset]:hover{
+    display: inline-block;
+    margin: 0px 10px 0px 15px;
+    font-size: 1em;
+    width: 40%;
+    height: 40px;
+    background-color: #0f291e;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #0f291e;
+    transition: 0.5s;
+}
+
+#esqsenha{
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    background-color: #05583d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+#esqsenha:hover{
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    background-color: #0baa75;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}

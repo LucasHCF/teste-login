@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    #loginbox{
+        width: 600px;
+        height: 300px;
+    }
+
+    #imagemlog{
+        float: left;
+        width: 200px;
+        height: 300px;
+        border-radius: 20px 0 0 20px;
+    }
+
+    #formlogin{
+        float: right;
+        width: 400px
+    }
+
+    .infobtn > input{
+        width: 300px;
+    }
+
+    form > a > input[type=submit]{
+        margin: 10px 0 20px 35px;
+    }
+
+    form > input[type=reset]{
+        margin: 10px 0px 10px 0px;
+    }
+
+    #esqsenha{
+        width: 300px;
+        margin-left: 40px;
+    }
+}
+
+@media screen and (min-width: 992px)
+{
+
+    #loginbox{
+        width: 800px;
+        height: 400px;
+    }
+
+    #imagemlog{
+        float: left;
+        width: 400px;
+        height: 400px;
+        border-radius: 20px 0 0 20px;
+    }
+
+    #formlogin{
+        float: right;
+        margin-top: 40px;
+        width: 400px
+    }
+
+    .infobtn > input{
+        width: 300px;
+    }
+
+    form > a > input[type=submit]{
+        margin: 10px 0 20px 35px;
+    }
+
+    form > input[type=reset]{
+        margin: 10px 0px 10px 0px;
+    }
+
+    #esqsenha{
+        width: 300px;
+        margin-left: 40px;
+    }
+}
