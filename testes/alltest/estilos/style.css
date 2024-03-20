@@ -45,7 +45,7 @@ header{
     border-radius: 10px 10px 0 0;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1em;
+    font-size: .7em;
     color: #233521;
     transition-duration: .6s;
 }
@@ -70,7 +70,7 @@ header{
 
 #main_home > h1{
     position: relative;
-    left: 65px;
+    left: 15px;
     font-size: 1.5em;
     padding: 7px;
     margin-top: 13px;
@@ -83,7 +83,7 @@ header{
 
 #main_home > div{
     position: relative;
-    left: 130px;
+    left: 80px;
     border: 1px solid black;
     padding: 10px;
     width: 40%;
