@@ -70,7 +70,7 @@ header{
 
 #main_home > h1{
     position: relative;
-    left: 27px;
+    left: 25px;
     font-size: 1.5em;
     padding: 7px;
     margin-top: 13px;
@@ -83,7 +83,7 @@ header{
 
 #main_home > div{
     position: relative;
-    left: 92px;
+    left: 95px;
     border: 1px solid black;
     padding: 10px;
     width: 40%;
